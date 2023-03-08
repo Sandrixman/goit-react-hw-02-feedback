@@ -10,8 +10,8 @@ const Statistics = ({
 }) => {
   return (
     <>
-      {children}
       <h2>Statistics</h2>
+      {children}
       {total > 0 && (
         <ul>
           <li>Good: {good}</li>
